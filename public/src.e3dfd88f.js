@@ -29,4 +29,4 @@ var e=function(e,r){"use strict";if("string"!=typeof e)throw new TypeError("Expe
 },{"hyperapp":12,"@hyperapp/fx":13,"picostyle":22}],4:[function(require,module,exports) {
 "use strict";var e=require("hyperapp"),r=require("@hyperapp/fx"),u=require("./js/state.js"),t=d(u),a=require("./js/actions.js"),s=d(a),i=require("./js/view.js"),p=d(i);function d(e){return e&&e.__esModule?e:{default:e}}var f=(0,r.withFx)(e.app)(t.default,s.default,p.default,document.body);
 },{"hyperapp":12,"@hyperapp/fx":13,"./js/state.js":6,"./js/actions.js":7,"./js/view.js":8}]},{},[4], null)
-//# sourceMappingURL=/src.e3dfd88f.map
+//# sourceMappingURL=public/src.e3dfd88f.map
