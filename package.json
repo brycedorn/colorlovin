@@ -1,0 +1,37 @@
+{
+  "name": "ffcolorlovers",
+  "version": "0.0.1",
+  "description": "Import COLOURlovers palettes into Firefox Color",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/parcel src/index.html --out-dir=public",
+    "build": "./node_modules/.bin/parcel build src/index.html --out-dir=public"
+  },
+  "keywords": [
+    "firefox",
+    "color",
+    "lovers",
+    "colourlovers",
+    "colorlovers",
+    "test",
+    "pilot"
+  ],
+  "author": "Bryce Dorn",
+  "license": "MIT",
+  "devDependencies": {
+    "bl": "^2.0.1",
+    "hex2rgb": "^2.2.0",
+    "hyperapp": "^1.2.6",
+    "picostyle": "^2.0.1",
+    "unfetch": "^3.0.0",
+    "urlsafe-base64": "^1.0.0"
+  },
+  "dependencies": {
+    "@hyperapp/fx": "^0.7.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "hex-rgb": "^3.0.0",
+    "json-url": "^2.3.4",
+    "parcel-bundler": "^1.9.0"
+  }
+}
